@@ -4,11 +4,7 @@ var mysql = require('mysql');
 const prefix = 'ec_';
 
 const db = mysql.createPool({
-    host: '119.28.19.245',
-    user: 'tbgrab',
-    port: 4417,
-    password: '!Qw2#Er4',
-    database: 'tyw'
+   
 });
 var findOne = function(table, where, callback) { //查找一条；
     // whre is arr; [{id:1},{username:admin}];
